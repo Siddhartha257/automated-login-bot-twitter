@@ -81,6 +81,5 @@ def logout_twitter():
     enter = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,"button[data-testid='confirmationSheetConfirm']")))
     enter.click()
 
-time.sleep(3)
 time.sleep(5)
 logout_twitter()
