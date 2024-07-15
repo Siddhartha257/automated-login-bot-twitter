@@ -82,4 +82,5 @@ def logout_twitter():
     enter.click()
 
 time.sleep(3)
+time.sleep(5)
 logout_twitter()
